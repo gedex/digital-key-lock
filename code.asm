@@ -94,7 +94,7 @@ modeRequest:
 ; CHECK EACH DIGIT
 ;
 ; Setiap digit yang disimpan di RAM (symbol directive
-: keypad), akan dicek. Apabila digit ke-1 sudah salah,
+; keypad), akan dicek. Apabila digit ke-1 sudah salah,
 ; maka langsung gagal, bila benar lanjut ke digit ke-2.
 ; Bila digit ke-2 salah, langsung gagal. Demikian
 ; seterusnya sampai 6 digit.
